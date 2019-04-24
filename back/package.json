@@ -10,7 +10,12 @@
   "author": "Dennis A. Enwiya",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-fileupload": "^1.1.4",
+    "hasher": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
     "knex": "^0.16.5",
     "nodemon": "^1.18.11",
     "pg": "^7.10.0"
