@@ -1,7 +1,7 @@
 const knex = require("../db/knex.js");
 const hasher = require("../config/hasher")
 module.exports = {
- 
+
   index: (req, res) => {
     knex("users").then(users => {
       res.json(users)
