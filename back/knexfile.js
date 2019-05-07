@@ -1,10 +1,12 @@
     
 module.exports = {
     development: {
+
         client: 'pg',
         connection: {
         database: "project-cloud",
-        host: "localhost"
+        // host: "localhost"
+        host: '127.0.0.1',
         },
         migrations: {
             directory: __dirname + '/db/migrations',
@@ -23,4 +25,5 @@ module.exports = {
             directory: __dirname + '/db/seeds/production',
         },
     },
+    
 };
